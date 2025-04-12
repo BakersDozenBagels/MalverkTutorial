@@ -30,8 +30,8 @@ AltTexture {
 }
 
 TexturePack {
-    key = "myEpicTexturePack",
-    textures = { -- This is a list of all of your `AltTexture`s. Include the prefix from `manifest.json`.
+    key = "myEpicTexturePack", -- Not very important, use whatever here
+    textures = {               -- This is a list of all of your `AltTexture`s. Include the prefix from `manifest.json`.
         "myEpicTexturePack_ExampleTexture",
         "myEpicTexturePack_YorickTexture",
     },

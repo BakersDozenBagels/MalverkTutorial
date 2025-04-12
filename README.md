@@ -111,7 +111,7 @@ AltTexture {
 Now, we'll make the `TexturePack`. You only need one for your whole mod.
 ```lua
 TexturePack {
-    key = "myEpicTexturePack", -- Not very important, use whatever here
+    key = "myEpicTexturePack",                         -- Not very important, use whatever here
     textures = { "myEpicTexturePack_ExampleTexture" }, -- This is a list of all of your `AltTexture`s. Include the prefix from `manifest.json`.
     loc_txt = {                                        -- This information shows up in the Malverk UI.
         name = "Epic Replacement For Chaos The Clown",
