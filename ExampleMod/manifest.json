@@ -1,0 +1,15 @@
+{
+	"id": "myEpicTexturePack",
+	"name": "Epic Replacement For Chaos The Clown",
+	"author": ["BakersDozenBagels"],
+	"description": "This replaces Chaos the Clown with a much better image.",
+	"prefix": "myEpicTexturePack",
+	"main_file": "main.lua",
+	"badge_colour": "ffffff",
+	"badge_text_colour": "000000",
+	"version": "1.0.0",
+	"dependencies": [
+		"Steamodded (>=1.*)",
+		"malverk"
+	]
+}
