@@ -6,13 +6,13 @@
 
 Malverk also has powerful tools for mixing and matching texture packs. For example, both [Balatro Wilds](https://github.com/NataKilar/Balatro-Wilds) and [SpecTrans](https://github.com/Eremel/SpecTrans) modify Black Hole. I can still use both texture packs and even specify which one wins for Black Hole.
 
-![My currently enabled texture packs. I currently have Balatro Wilds's Black Hole enabled.](Example1.png)
+![My currently enabled texture packs. I currently have Balatro Wilds's Black Hole enabled.](images/Example1.png)
 
 ## Making a Texture Pack
 
 For this tutorial, I will assume you already have artwork made. For now I'll assume each image is separate, but you can also put them in a spritesheet to match the vanilla game. I will demonstrate replacing Chaos the Clown.
 
-![The image I will be using. I'm so good at art](Example2.png)
+![The image I will be using. I'm so good at art](images/Example2.png)
 
 ### Making a Mod
 
@@ -41,7 +41,7 @@ Next, create `main.lua` (or whatever you called it in your `.json`). Leave it as
 
 The mod should now load in game, although it won't do anything.
 
-![The mod loads in game](Example3.png)
+![The mod loads in game](images/Example3.png)
 
 Now, create your `assets` directory (we'll generate the 2x texture in a moment):
 ```
@@ -122,15 +122,15 @@ TexturePack {
 
 That's all you need to do! Let's look at the mod in game.
 
-![The mod in the Malverk UI](Example4.png)
+![The mod in the Malverk UI](images/Example4.png)
 
-![Chaos the Clown in a run](Example5.png)
+![Chaos the Clown in a run](images/Example5.png)
 
 ### Adding Another Retexture
 
 Now, I'll retexture Yorick.
 
-![Not the "Soul Sprite" after the normal one.](Example6.png)
+![Not the "Soul Sprite" after the normal one.](images/Example6.png)
 
 In `main.lua`:
 ```lua
@@ -163,17 +163,17 @@ TexturePack {
 
 Now Yorick will be retextured, too.
 
-![Yorick in game](Example7.png)
+![Yorick in game](images/Example7.png)
 
 ## In Game Settings
 
 Now that you have multiple `AltTexture`s, the Malverk UI has an extra feature. Your texture pack will have a settings button.
 
-![](Example8.png)
+![](images/Example8.png)
 
 In this menu, the end user can individually toggle each `AltTexture`. Make sure you give them nice names so you can tell what they are later (this is what the `loc_txt = { name = "My Title" }` is).
 
-![AltTexture options](Example9.png)
+![AltTexture options](images/Example9.png)
 
 ## Beyond
 
